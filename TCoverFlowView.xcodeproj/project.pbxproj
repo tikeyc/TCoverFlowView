@@ -26,8 +26,8 @@
 		4ED83C111CF59737008A213D /* XLLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED83C0D1CF59737008A213D /* XLLayout.m */; };
 		4ED83C121CF59737008A213D /* XLPhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED83C0F1CF59737008A213D /* XLPhotoCell.m */; };
 		4ED83C131CF59737008A213D /* XLPhotoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4ED83C101CF59737008A213D /* XLPhotoCell.xib */; };
-		4ED83C1E1CF5A451008A213D /* screen1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4ED83C1C1CF5A451008A213D /* screen1.png */; };
-		4ED83C1F1CF5A451008A213D /* screen2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4ED83C1D1CF5A451008A213D /* screen2.png */; };
+		4ED83C231CF5A531008A213D /* screen1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4ED83C211CF5A531008A213D /* screen1.png */; };
+		4ED83C241CF5A531008A213D /* screen2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4ED83C221CF5A531008A213D /* screen2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,8 +85,8 @@
 		4ED83C0E1CF59737008A213D /* XLPhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLPhotoCell.h; sourceTree = "<group>"; };
 		4ED83C0F1CF59737008A213D /* XLPhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLPhotoCell.m; sourceTree = "<group>"; };
 		4ED83C101CF59737008A213D /* XLPhotoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XLPhotoCell.xib; sourceTree = "<group>"; };
-		4ED83C1C1CF5A451008A213D /* screen1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screen1.png; sourceTree = "<group>"; };
-		4ED83C1D1CF5A451008A213D /* screen2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screen2.png; sourceTree = "<group>"; };
+		4ED83C211CF5A531008A213D /* screen1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screen1.png; sourceTree = "<group>"; };
+		4ED83C221CF5A531008A213D /* screen2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screen2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,7 +117,7 @@
 		4ED83B931CF589EF008A213D = {
 			isa = PBXGroup;
 			children = (
-				4ED83C1B1CF5A440008A213D /* ReadMe */,
+				4ED83C201CF5A531008A213D /* ReadMe */,
 				4ED83B9E1CF589EF008A213D /* TCoverFlowView */,
 				4ED83BBB1CF589EF008A213D /* TCoverFlowViewTests */,
 				4ED83BC61CF589EF008A213D /* TCoverFlowViewUITests */,
@@ -246,14 +246,13 @@
 			path = XLLayout;
 			sourceTree = "<group>";
 		};
-		4ED83C1B1CF5A440008A213D /* ReadMe */ = {
+		4ED83C201CF5A531008A213D /* ReadMe */ = {
 			isa = PBXGroup;
 			children = (
-				4ED83C1C1CF5A451008A213D /* screen1.png */,
-				4ED83C1D1CF5A451008A213D /* screen2.png */,
+				4ED83C211CF5A531008A213D /* screen1.png */,
+				4ED83C221CF5A531008A213D /* screen2.png */,
 			);
-			name = ReadMe;
-			path = TCoverFlowView;
+			path = ReadMe;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -362,8 +361,8 @@
 				4ED83BB21CF589EF008A213D /* LaunchScreen.storyboard in Resources */,
 				4ED83BAF1CF589EF008A213D /* Assets.xcassets in Resources */,
 				4ED83C131CF59737008A213D /* XLPhotoCell.xib in Resources */,
-				4ED83C1E1CF5A451008A213D /* screen1.png in Resources */,
-				4ED83C1F1CF5A451008A213D /* screen2.png in Resources */,
+				4ED83C231CF5A531008A213D /* screen1.png in Resources */,
+				4ED83C241CF5A531008A213D /* screen2.png in Resources */,
 				4ED83BAD1CF589EF008A213D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
