@@ -117,6 +117,7 @@
 		4ED83B931CF589EF008A213D = {
 			isa = PBXGroup;
 			children = (
+				4ED83C1B1CF5A440008A213D /* ReadMe */,
 				4ED83B9E1CF589EF008A213D /* TCoverFlowView */,
 				4ED83BBB1CF589EF008A213D /* TCoverFlowViewTests */,
 				4ED83BC61CF589EF008A213D /* TCoverFlowViewUITests */,
@@ -137,7 +138,6 @@
 		4ED83B9E1CF589EF008A213D /* TCoverFlowView */ = {
 			isa = PBXGroup;
 			children = (
-				4ED83C1B1CF5A440008A213D /* ReadMe */,
 				4ED83BA21CF589EF008A213D /* AppDelegate.h */,
 				4ED83BA31CF589EF008A213D /* AppDelegate.m */,
 				4ED83BDE1CF58EA9008A213D /* Libs */,
@@ -253,6 +253,7 @@
 				4ED83C1D1CF5A451008A213D /* screen2.png */,
 			);
 			name = ReadMe;
+			path = TCoverFlowView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -628,6 +629,7 @@
 				4ED83BCE1CF589F0008A213D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4ED83BCF1CF589F0008A213D /* Build configuration list for PBXNativeTarget "TCoverFlowViewTests" */ = {
 			isa = XCConfigurationList;
@@ -636,6 +638,7 @@
 				4ED83BD11CF589F0008A213D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4ED83BD21CF589F0008A213D /* Build configuration list for PBXNativeTarget "TCoverFlowViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -644,6 +647,7 @@
 				4ED83BD41CF589F0008A213D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
