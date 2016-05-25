@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4ED83BA11CF589EF008A213D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED83BA01CF589EF008A213D /* main.m */; };
+		4ED83BA41CF589EF008A213D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED83BA31CF589EF008A213D /* AppDelegate.m */; };
+		4ED83BAD1CF589EF008A213D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ED83BAB1CF589EF008A213D /* Main.storyboard */; };
+		4ED83BAF1CF589EF008A213D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ED83BAE1CF589EF008A213D /* Assets.xcassets */; };
+		4ED83BB21CF589EF008A213D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ED83BB01CF589EF008A213D /* LaunchScreen.storyboard */; };
+		4ED83BBD1CF589EF008A213D /* TCoverFlowViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED83BBC1CF589EF008A213D /* TCoverFlowViewTests.m */; };
+		4ED83BC81CF589F0008A213D /* TCoverFlowViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED83BC71CF589F0008A213D /* TCoverFlowViewUITests.m */; };
+		4ED83BD91CF58D31008A213D /* CoverflowTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED83BD81CF58D31008A213D /* CoverflowTableViewController.m */; };
+		4ED83BEC1CF58EA9008A213D /* CBetterCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED83BE11CF58EA9008A213D /* CBetterCollectionViewCell.m */; };
+		4ED83BED1CF58EA9008A213D /* CBetterCollectionViewLayoutAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED83BE31CF58EA9008A213D /* CBetterCollectionViewLayoutAttributes.m */; };
+		4ED83BEE1CF58EA9008A213D /* CCoverflowCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED83BE51CF58EA9008A213D /* CCoverflowCollectionViewLayout.m */; };
+		4ED83BEF1CF58EA9008A213D /* CInterpolator.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4ED83BE71CF58EA9008A213D /* CInterpolator.mm */; };
+		4ED83BF01CF58EA9008A213D /* CReflectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED83BE91CF58EA9008A213D /* CReflectionView.m */; };
+		4ED83BF11CF58EA9008A213D /* Interpolator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4ED83BEA1CF58EA9008A213D /* Interpolator.cpp */; };
+		4ED83C071CF5969A008A213D /* Coverflow1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED83C061CF5969A008A213D /* Coverflow1ViewController.m */; };
+		4ED83C0A1CF596B6008A213D /* Coverflow2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED83C091CF596B6008A213D /* Coverflow2ViewController.m */; };
+		4ED83C111CF59737008A213D /* XLLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED83C0D1CF59737008A213D /* XLLayout.m */; };
+		4ED83C121CF59737008A213D /* XLPhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED83C0F1CF59737008A213D /* XLPhotoCell.m */; };
+		4ED83C131CF59737008A213D /* XLPhotoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4ED83C101CF59737008A213D /* XLPhotoCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4ED83BB91CF589EF008A213D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4ED83B941CF589EF008A213D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4ED83B9B1CF589EF008A213D;
+			remoteInfo = TCoverFlowView;
+		};
+		4ED83BC41CF589EF008A213D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4ED83B941CF589EF008A213D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4ED83B9B1CF589EF008A213D;
+			remoteInfo = TCoverFlowView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4ED83B9C1CF589EF008A213D /* TCoverFlowView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TCoverFlowView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ED83BA01CF589EF008A213D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4ED83BA21CF589EF008A213D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4ED83BA31CF589EF008A213D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4ED83BAC1CF589EF008A213D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4ED83BAE1CF589EF008A213D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4ED83BB11CF589EF008A213D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4ED83BB31CF589EF008A213D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4ED83BB81CF589EF008A213D /* TCoverFlowViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TCoverFlowViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ED83BBC1CF589EF008A213D /* TCoverFlowViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCoverFlowViewTests.m; sourceTree = "<group>"; };
+		4ED83BBE1CF589EF008A213D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4ED83BC31CF589EF008A213D /* TCoverFlowViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TCoverFlowViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ED83BC71CF589F0008A213D /* TCoverFlowViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCoverFlowViewUITests.m; sourceTree = "<group>"; };
+		4ED83BC91CF589F0008A213D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4ED83BD71CF58D31008A213D /* CoverflowTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoverflowTableViewController.h; sourceTree = "<group>"; };
+		4ED83BD81CF58D31008A213D /* CoverflowTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoverflowTableViewController.m; sourceTree = "<group>"; };
+		4ED83BE01CF58EA9008A213D /* CBetterCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBetterCollectionViewCell.h; sourceTree = "<group>"; };
+		4ED83BE11CF58EA9008A213D /* CBetterCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBetterCollectionViewCell.m; sourceTree = "<group>"; };
+		4ED83BE21CF58EA9008A213D /* CBetterCollectionViewLayoutAttributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBetterCollectionViewLayoutAttributes.h; sourceTree = "<group>"; };
+		4ED83BE31CF58EA9008A213D /* CBetterCollectionViewLayoutAttributes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBetterCollectionViewLayoutAttributes.m; sourceTree = "<group>"; };
+		4ED83BE41CF58EA9008A213D /* CCoverflowCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCoverflowCollectionViewLayout.h; sourceTree = "<group>"; };
+		4ED83BE51CF58EA9008A213D /* CCoverflowCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCoverflowCollectionViewLayout.m; sourceTree = "<group>"; };
+		4ED83BE61CF58EA9008A213D /* CInterpolator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CInterpolator.h; sourceTree = "<group>"; };
+		4ED83BE71CF58EA9008A213D /* CInterpolator.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CInterpolator.mm; sourceTree = "<group>"; };
+		4ED83BE81CF58EA9008A213D /* CReflectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CReflectionView.h; sourceTree = "<group>"; };
+		4ED83BE91CF58EA9008A213D /* CReflectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CReflectionView.m; sourceTree = "<group>"; };
+		4ED83BEA1CF58EA9008A213D /* Interpolator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Interpolator.cpp; sourceTree = "<group>"; };
+		4ED83BEB1CF58EA9008A213D /* Interpolator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Interpolator.h; sourceTree = "<group>"; };
+		4ED83C051CF5969A008A213D /* Coverflow1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Coverflow1ViewController.h; sourceTree = "<group>"; };
+		4ED83C061CF5969A008A213D /* Coverflow1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Coverflow1ViewController.m; sourceTree = "<group>"; };
+		4ED83C081CF596B6008A213D /* Coverflow2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Coverflow2ViewController.h; sourceTree = "<group>"; };
+		4ED83C091CF596B6008A213D /* Coverflow2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Coverflow2ViewController.m; sourceTree = "<group>"; };
+		4ED83C0C1CF59737008A213D /* XLLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLLayout.h; sourceTree = "<group>"; };
+		4ED83C0D1CF59737008A213D /* XLLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLLayout.m; sourceTree = "<group>"; };
+		4ED83C0E1CF59737008A213D /* XLPhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLPhotoCell.h; sourceTree = "<group>"; };
+		4ED83C0F1CF59737008A213D /* XLPhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLPhotoCell.m; sourceTree = "<group>"; };
+		4ED83C101CF59737008A213D /* XLPhotoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XLPhotoCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4ED83B991CF589EF008A213D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ED83BB51CF589EF008A213D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ED83BC01CF589EF008A213D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4ED83B931CF589EF008A213D = {
+			isa = PBXGroup;
+			children = (
+				4ED83B9E1CF589EF008A213D /* TCoverFlowView */,
+				4ED83BBB1CF589EF008A213D /* TCoverFlowViewTests */,
+				4ED83BC61CF589EF008A213D /* TCoverFlowViewUITests */,
+				4ED83B9D1CF589EF008A213D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4ED83B9D1CF589EF008A213D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4ED83B9C1CF589EF008A213D /* TCoverFlowView.app */,
+				4ED83BB81CF589EF008A213D /* TCoverFlowViewTests.xctest */,
+				4ED83BC31CF589EF008A213D /* TCoverFlowViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4ED83B9E1CF589EF008A213D /* TCoverFlowView */ = {
+			isa = PBXGroup;
+			children = (
+				4ED83BA21CF589EF008A213D /* AppDelegate.h */,
+				4ED83BA31CF589EF008A213D /* AppDelegate.m */,
+				4ED83BDE1CF58EA9008A213D /* Libs */,
+				4ED83BD51CF58CE4008A213D /* ViewController */,
+				4ED83BAB1CF589EF008A213D /* Main.storyboard */,
+				4ED83BAE1CF589EF008A213D /* Assets.xcassets */,
+				4ED83BB01CF589EF008A213D /* LaunchScreen.storyboard */,
+				4ED83BB31CF589EF008A213D /* Info.plist */,
+				4ED83B9F1CF589EF008A213D /* Supporting Files */,
+			);
+			path = TCoverFlowView;
+			sourceTree = "<group>";
+		};
+		4ED83B9F1CF589EF008A213D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4ED83BA01CF589EF008A213D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4ED83BBB1CF589EF008A213D /* TCoverFlowViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				4ED83BBC1CF589EF008A213D /* TCoverFlowViewTests.m */,
+				4ED83BBE1CF589EF008A213D /* Info.plist */,
+			);
+			path = TCoverFlowViewTests;
+			sourceTree = "<group>";
+		};
+		4ED83BC61CF589EF008A213D /* TCoverFlowViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4ED83BC71CF589F0008A213D /* TCoverFlowViewUITests.m */,
+				4ED83BC91CF589F0008A213D /* Info.plist */,
+			);
+			path = TCoverFlowViewUITests;
+			sourceTree = "<group>";
+		};
+		4ED83BD51CF58CE4008A213D /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4ED83BDA1CF58D58008A213D /* Item2 */,
+				4ED83BD61CF58CE4008A213D /* Item1 */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		4ED83BD61CF58CE4008A213D /* Item1 */ = {
+			isa = PBXGroup;
+			children = (
+				4ED83BD71CF58D31008A213D /* CoverflowTableViewController.h */,
+				4ED83BD81CF58D31008A213D /* CoverflowTableViewController.m */,
+				4ED83C051CF5969A008A213D /* Coverflow1ViewController.h */,
+				4ED83C061CF5969A008A213D /* Coverflow1ViewController.m */,
+				4ED83C081CF596B6008A213D /* Coverflow2ViewController.h */,
+				4ED83C091CF596B6008A213D /* Coverflow2ViewController.m */,
+			);
+			path = Item1;
+			sourceTree = "<group>";
+		};
+		4ED83BDA1CF58D58008A213D /* Item2 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Item2;
+			sourceTree = "<group>";
+		};
+		4ED83BDE1CF58EA9008A213D /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				4ED83C0B1CF59737008A213D /* XLLayout */,
+				4ED83BDF1CF58EA9008A213D /* Coverflow */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		4ED83BDF1CF58EA9008A213D /* Coverflow */ = {
+			isa = PBXGroup;
+			children = (
+				4ED83BE01CF58EA9008A213D /* CBetterCollectionViewCell.h */,
+				4ED83BE11CF58EA9008A213D /* CBetterCollectionViewCell.m */,
+				4ED83BE21CF58EA9008A213D /* CBetterCollectionViewLayoutAttributes.h */,
+				4ED83BE31CF58EA9008A213D /* CBetterCollectionViewLayoutAttributes.m */,
+				4ED83BE41CF58EA9008A213D /* CCoverflowCollectionViewLayout.h */,
+				4ED83BE51CF58EA9008A213D /* CCoverflowCollectionViewLayout.m */,
+				4ED83BE61CF58EA9008A213D /* CInterpolator.h */,
+				4ED83BE71CF58EA9008A213D /* CInterpolator.mm */,
+				4ED83BE81CF58EA9008A213D /* CReflectionView.h */,
+				4ED83BE91CF58EA9008A213D /* CReflectionView.m */,
+				4ED83BEA1CF58EA9008A213D /* Interpolator.cpp */,
+				4ED83BEB1CF58EA9008A213D /* Interpolator.h */,
+			);
+			path = Coverflow;
+			sourceTree = "<group>";
+		};
+		4ED83C0B1CF59737008A213D /* XLLayout */ = {
+			isa = PBXGroup;
+			children = (
+				4ED83C0C1CF59737008A213D /* XLLayout.h */,
+				4ED83C0D1CF59737008A213D /* XLLayout.m */,
+				4ED83C0E1CF59737008A213D /* XLPhotoCell.h */,
+				4ED83C0F1CF59737008A213D /* XLPhotoCell.m */,
+				4ED83C101CF59737008A213D /* XLPhotoCell.xib */,
+			);
+			path = XLLayout;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4ED83B9B1CF589EF008A213D /* TCoverFlowView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4ED83BCC1CF589F0008A213D /* Build configuration list for PBXNativeTarget "TCoverFlowView" */;
+			buildPhases = (
+				4ED83B981CF589EF008A213D /* Sources */,
+				4ED83B991CF589EF008A213D /* Frameworks */,
+				4ED83B9A1CF589EF008A213D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TCoverFlowView;
+			productName = TCoverFlowView;
+			productReference = 4ED83B9C1CF589EF008A213D /* TCoverFlowView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4ED83BB71CF589EF008A213D /* TCoverFlowViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4ED83BCF1CF589F0008A213D /* Build configuration list for PBXNativeTarget "TCoverFlowViewTests" */;
+			buildPhases = (
+				4ED83BB41CF589EF008A213D /* Sources */,
+				4ED83BB51CF589EF008A213D /* Frameworks */,
+				4ED83BB61CF589EF008A213D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4ED83BBA1CF589EF008A213D /* PBXTargetDependency */,
+			);
+			name = TCoverFlowViewTests;
+			productName = TCoverFlowViewTests;
+			productReference = 4ED83BB81CF589EF008A213D /* TCoverFlowViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4ED83BC21CF589EF008A213D /* TCoverFlowViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4ED83BD21CF589F0008A213D /* Build configuration list for PBXNativeTarget "TCoverFlowViewUITests" */;
+			buildPhases = (
+				4ED83BBF1CF589EF008A213D /* Sources */,
+				4ED83BC01CF589EF008A213D /* Frameworks */,
+				4ED83BC11CF589EF008A213D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4ED83BC51CF589EF008A213D /* PBXTargetDependency */,
+			);
+			name = TCoverFlowViewUITests;
+			productName = TCoverFlowViewUITests;
+			productReference = 4ED83BC31CF589EF008A213D /* TCoverFlowViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4ED83B941CF589EF008A213D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = tikeyc;
+				TargetAttributes = {
+					4ED83B9B1CF589EF008A213D = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					4ED83BB71CF589EF008A213D = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 4ED83B9B1CF589EF008A213D;
+					};
+					4ED83BC21CF589EF008A213D = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 4ED83B9B1CF589EF008A213D;
+					};
+				};
+			};
+			buildConfigurationList = 4ED83B971CF589EF008A213D /* Build configuration list for PBXProject "TCoverFlowView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4ED83B931CF589EF008A213D;
+			productRefGroup = 4ED83B9D1CF589EF008A213D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4ED83B9B1CF589EF008A213D /* TCoverFlowView */,
+				4ED83BB71CF589EF008A213D /* TCoverFlowViewTests */,
+				4ED83BC21CF589EF008A213D /* TCoverFlowViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4ED83B9A1CF589EF008A213D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ED83BB21CF589EF008A213D /* LaunchScreen.storyboard in Resources */,
+				4ED83BAF1CF589EF008A213D /* Assets.xcassets in Resources */,
+				4ED83C131CF59737008A213D /* XLPhotoCell.xib in Resources */,
+				4ED83BAD1CF589EF008A213D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ED83BB61CF589EF008A213D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ED83BC11CF589EF008A213D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4ED83B981CF589EF008A213D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ED83C071CF5969A008A213D /* Coverflow1ViewController.m in Sources */,
+				4ED83BEC1CF58EA9008A213D /* CBetterCollectionViewCell.m in Sources */,
+				4ED83BF01CF58EA9008A213D /* CReflectionView.m in Sources */,
+				4ED83BD91CF58D31008A213D /* CoverflowTableViewController.m in Sources */,
+				4ED83BF11CF58EA9008A213D /* Interpolator.cpp in Sources */,
+				4ED83BED1CF58EA9008A213D /* CBetterCollectionViewLayoutAttributes.m in Sources */,
+				4ED83C121CF59737008A213D /* XLPhotoCell.m in Sources */,
+				4ED83BA41CF589EF008A213D /* AppDelegate.m in Sources */,
+				4ED83C111CF59737008A213D /* XLLayout.m in Sources */,
+				4ED83BA11CF589EF008A213D /* main.m in Sources */,
+				4ED83C0A1CF596B6008A213D /* Coverflow2ViewController.m in Sources */,
+				4ED83BEF1CF58EA9008A213D /* CInterpolator.mm in Sources */,
+				4ED83BEE1CF58EA9008A213D /* CCoverflowCollectionViewLayout.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ED83BB41CF589EF008A213D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ED83BBD1CF589EF008A213D /* TCoverFlowViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ED83BBF1CF589EF008A213D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ED83BC81CF589F0008A213D /* TCoverFlowViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4ED83BBA1CF589EF008A213D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4ED83B9B1CF589EF008A213D /* TCoverFlowView */;
+			targetProxy = 4ED83BB91CF589EF008A213D /* PBXContainerItemProxy */;
+		};
+		4ED83BC51CF589EF008A213D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4ED83B9B1CF589EF008A213D /* TCoverFlowView */;
+			targetProxy = 4ED83BC41CF589EF008A213D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4ED83BAB1CF589EF008A213D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4ED83BAC1CF589EF008A213D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4ED83BB01CF589EF008A213D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4ED83BB11CF589EF008A213D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4ED83BCA1CF589F0008A213D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4ED83BCB1CF589F0008A213D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4ED83BCD1CF589F0008A213D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_INPUT_FILETYPE = automatic;
+				INFOPLIST_FILE = TCoverFlowView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ways.TCoverFlowView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4ED83BCE1CF589F0008A213D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_INPUT_FILETYPE = automatic;
+				INFOPLIST_FILE = TCoverFlowView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ways.TCoverFlowView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4ED83BD01CF589F0008A213D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TCoverFlowViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ways.TCoverFlowViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TCoverFlowView.app/TCoverFlowView";
+			};
+			name = Debug;
+		};
+		4ED83BD11CF589F0008A213D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TCoverFlowViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ways.TCoverFlowViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TCoverFlowView.app/TCoverFlowView";
+			};
+			name = Release;
+		};
+		4ED83BD31CF589F0008A213D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TCoverFlowViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ways.TCoverFlowViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TCoverFlowView;
+			};
+			name = Debug;
+		};
+		4ED83BD41CF589F0008A213D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TCoverFlowViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ways.TCoverFlowViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TCoverFlowView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4ED83B971CF589EF008A213D /* Build configuration list for PBXProject "TCoverFlowView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ED83BCA1CF589F0008A213D /* Debug */,
+				4ED83BCB1CF589F0008A213D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4ED83BCC1CF589F0008A213D /* Build configuration list for PBXNativeTarget "TCoverFlowView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ED83BCD1CF589F0008A213D /* Debug */,
+				4ED83BCE1CF589F0008A213D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4ED83BCF1CF589F0008A213D /* Build configuration list for PBXNativeTarget "TCoverFlowViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ED83BD01CF589F0008A213D /* Debug */,
+				4ED83BD11CF589F0008A213D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4ED83BD21CF589F0008A213D /* Build configuration list for PBXNativeTarget "TCoverFlowViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ED83BD31CF589F0008A213D /* Debug */,
+				4ED83BD41CF589F0008A213D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4ED83B941CF589EF008A213D /* Project object */;
+}
